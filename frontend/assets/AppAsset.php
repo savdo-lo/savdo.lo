@@ -21,7 +21,11 @@ class AppAsset extends AssetBundle
         'css/responsive.css'
     ];
     public $js = [
-    
+        'js/jquery.scrollUp.min.js',
+        'js/price-range.js',
+        'js/jquery.prettyPhoto.js',
+        'js/main.js'
+
     ];
     public $depends = [
         'yii\web\YiiAsset',
