@@ -1,0 +1,10 @@
+        RewriteEngine On
+        RewriteCond %{REQUEST_URI} !^/(web)
+        RewriteRule (.*) /web/$1
+        RewriteRule ^fonts(/.*)?$ /backend/web/fonts/$1 [L]
+
+        # Если это папка или файл, открываем ее/его
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteCond %{REQUEST_FILENAME} !-d
+        # В противном случае перенаправляем на index.php
+        RewriteRule . /web/index.php
