@@ -10,6 +10,8 @@ return [
     'id' => 'app-backend',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
+    'name'=>'Savdo',
+    'defaultRoute' => 'category/index',
     'bootstrap' => ['log'],
     'modules' => [],
     'components' => [
@@ -47,6 +49,7 @@ return [
                 '<controller:\w+>/<action:\w+>/'=>'<controller>/<action>'
             ],
         ],
+
         /**/
     ],
     'params' => $params,

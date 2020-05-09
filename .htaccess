@@ -12,6 +12,7 @@ RewriteRule ^admin(/.+)?$ /backend/web/$1 [L,PT]
 
 RewriteCond %{REQUEST_URI} ^.*$
 RewriteRule ^(.*)$ /frontend/web/$1
+RewriteRule ^fonts(/.*)?$ /frontend/web/fonts/$1 [L]
 
 
 php_value date.timezone 'Asia/Tashkent'
