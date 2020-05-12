@@ -28,6 +28,7 @@ use yii\helpers\Html;
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav ml-auto'],
         'encodeLabels'=>false,
+
         'items' => $menuItems,
     ]);
     NavBar::end();

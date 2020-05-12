@@ -47,6 +47,7 @@ return [
             'rules' => [
                 '/' => 'site/index',
                 '<controller:\w+>/<action\w+>/<id>' => '<controller>/<action>',
+
                 '<controller:\w+>/<action:\w+>/'=>'<controller>/<action>'
             ],
         ],

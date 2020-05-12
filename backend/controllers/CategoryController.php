@@ -65,7 +65,6 @@ class CategoryController extends Controller
     public function actionCreate()
     {
         $model = new Category();
-
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         }
@@ -118,7 +117,7 @@ class CategoryController extends Controller
      */
     protected function findModel($id)
     {
-        if (($model = category::findOne($id)) !== null) {
+        if (($model = Category::findOne($id)) !== null) {
             return $model;
         }
 

@@ -33,6 +33,7 @@ class Product extends \yii\db\ActiveRecord
         return 'product';
     }
 
+
     /**
      * {@inheritdoc}
      */

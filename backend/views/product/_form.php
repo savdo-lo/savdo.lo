@@ -10,7 +10,7 @@ use yii\bootstrap4\ActiveForm;
 /* @var $form yii\bootstrap4\ActiveForm */
 ?>
 
-<div class="product-form" xmlns="http://www.w3.org/1999/html">
+<div class="product-form">
 
     <?php $form = ActiveForm::begin([
     'options'=>['enctype'=>'multipart/form-data'],
@@ -19,14 +19,11 @@ use yii\bootstrap4\ActiveForm;
     <div class="row">
         <div class="col-sm-8">
 
-
             <?= $form->field($model, 'count')->textInput() ?>
 
             <?= $form->field($model, 'category_id')->dropDownList(ArrayHelper::map(Category::find()->all(),'id','name')) ?>
 
             <?= $form->field($model, 'hit')->textInput() ?>
-
-
 
             <?= $form->field($model, 'keywords')->textInput(['maxlength' => true]) ?>
 

@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "e289aa744f04d80210509b6d3cb63951",
+=======
+    "content-hash": "f0cec380069d81982acefc108094b3d8",
+>>>>>>> 32230e75dce3d0499fe85ffd52ec4daeaa4f894e
     "packages": [
         {
             "name": "bower-asset/inputmask",
@@ -309,6 +313,7 @@
             "time": "2019-10-28T03:44:26+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "imagine/imagine",
             "version": "1.2.3",
             "source": {
@@ -367,6 +372,8 @@
             "time": "2019-12-04T09:55:33+00:00"
         },
         {
+=======
+>>>>>>> 32230e75dce3d0499fe85ffd52ec4daeaa4f894e
             "name": "npm-asset/bootstrap",
             "version": "4.4.1",
             "dist": {
@@ -900,6 +907,7 @@
             "time": "2020-04-20T18:47:46+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "yiisoft/yii2-imagine",
             "version": "2.2.0",
             "source": {
@@ -951,6 +959,8 @@
             "time": "2019-06-04T12:38:50+00:00"
         },
         {
+=======
+>>>>>>> 32230e75dce3d0499fe85ffd52ec4daeaa4f894e
             "name": "yiisoft/yii2-swiftmailer",
             "version": "2.1.2",
             "source": {
@@ -3716,7 +3726,11 @@
             },
             "require": {
                 "yiisoft/yii2": "~2.0.13",
+<<<<<<< HEAD
                 "yiisoft/yii2-bootstrap4": "~2.0.0"
+=======
+                "yiisoft/yii2-bootstrap4": "~2.0"
+>>>>>>> 32230e75dce3d0499fe85ffd52ec4daeaa4f894e
             },
             "type": "yii2-extension",
             "extra": {
