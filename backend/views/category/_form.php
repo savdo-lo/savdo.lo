@@ -6,7 +6,7 @@ use yii\widgets\ActiveForm;
 /* @var $this yii\web\View */
 /* @var $model common\models\category */
 /* @var $form yii\widgets\ActiveForm */
-// \backend\assets\TagsAppAsset::register($this);
+\backend\assets\TagsAppAsset::register($this);
 ?>
 
 <div class="category-form">

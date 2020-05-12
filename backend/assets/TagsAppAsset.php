@@ -13,10 +13,10 @@ class TagsAppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/tagsinput.css',
+        'css/tagsinput/tagsinput.css',
     ];
     public $js = [
-        'css/tagsinput.js',
+        'css/tagsinput/tagsinput.js',
     ];
     public $depends = [
       JqueryAsset::class
